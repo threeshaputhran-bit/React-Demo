@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function Layout() {
   return (
@@ -10,6 +10,7 @@ function Layout() {
               <th><Link to="/blogs">Blogs</Link></th>
               <th><Link to="/contact">Contact</Link></th>
               <th><Link to="/login">Login</Link></th>
+              <th><Link to="/user">Users</Link></th>
         </table>
       </nav>
     </>
