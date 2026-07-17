@@ -11,6 +11,7 @@ function Layout() {
               <th><Link to="/contact">Contact</Link></th>
               <th><Link to="/login">Login</Link></th>
               <th><Link to="/user">Users</Link></th>
+              <th><Link to="/signin">Login</Link></th>
         </table>
       </nav>
     </>

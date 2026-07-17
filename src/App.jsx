@@ -15,6 +15,7 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Users from './pages/Users'
+import Login from './pages/Login'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,6 +39,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Form />} />
           <Route path="user" element={<Users />} />
+          <Route path="signin" element={<Login />} />
         </Routes>
       </BrowserRouter>
     
